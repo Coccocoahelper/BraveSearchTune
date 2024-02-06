@@ -10,16 +10,23 @@
 $boost=4,site=wikipedia.org
 
 !Anti Propaganda
-
 !Right wing
 *foxnews*$downrank=3,inurl
-$downrank=6,site=gab.com
+$downrank=3,site=gab.com
+
+!Good news
+$boost=1,site=bloomberg.com
 
 
 !FLOSS and Privacy
 !Boost FLOSS websites
 $boost=3,site=codeberg.org
 $boost=2,site=gnu.org
+$boost=2,site=fsf.org
+$boost=1,site=linuxfoundation.org
 
-!Downrank Fake / anti-FLOSS websites
+!Linux Distros
+$boost=1,site=archlinux.org
+
+!Downrank fake or anti-FLOSS websites
 $downrank=1,site=github.com
