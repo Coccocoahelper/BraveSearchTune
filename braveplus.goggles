@@ -1,0 +1,25 @@
+! name: Brave+ Goggles
+! description: The single best Brave Search goggles, giving you the best results!
+! public: true
+! author: Coccocoa's Helper
+!avatar: #fcea7e
+
+!Removes Spam
+
+!BOOST LIST
+$boost=4,site=wikipedia.org
+
+!Anti Propaganda
+
+!Right wing
+*foxnews*$downrank=3,inurl
+$downrank=6,site=gab.com
+
+
+!FLOSS and Privacy
+!Boost FLOSS websites
+$boost=3,site=codeberg.org
+$boost=2,site=gnu.org
+
+!Downrank Fake / anti-FLOSS websites
+$downrank=1,site=github.com
