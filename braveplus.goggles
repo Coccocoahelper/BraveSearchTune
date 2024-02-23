@@ -2,6 +2,7 @@
 ! description: The single best Brave Search goggles, giving you the best results!
 ! public: true
 ! author: Coccocoa's Helper
+!license: GPLv3
 !avatar: #fcea7e
 
 !Removes Spam
@@ -13,6 +14,7 @@ $boost=4,site=wikipedia.org
 !Right wing
 *foxnews*$downrank=2,inurl
 $downrank=3,site=gab.com
+$downrank=1,site=twitter.com
 
 !Good news
 $boost=1,site=bloomberg.com
@@ -27,16 +29,28 @@ $boost=1,site=linuxfoundation.org
 
 !Linux Distros
 $boost=1,site=archlinux.org
+$boost=1,site=gentoo.org
+$boost=1,site=debian.org
+$boost=1,site=fedoraproject.org
+$boost=1,site=opensuse.org
+
+!Ubuntu-based
+$boost=1,site=kubuntu.org
+$boost=1,site=linuxmint.org
 $boost=1,site=zorinos.com
 $boost=1,site=zorin.com
 
+
+!News
+$boost=1,site=news.ycombinator.com
+$boost=1,site=lobster.rs
+
 !Downrank fake or anti-FLOSS websites
-$downrank=1,site=github.com
+!$downrank=1,site=github.com
+$downrank=1,site=gitlab.com
 $downrank=1,site=sourcehut.org
 
 !Downrank anti-privacy websites
 $downrank=1,site=facebook.com
 $downrank=1,site=instagram.com
 $downrank=1,site=threads.com
-$downrank=1,site=twitter.com
-
