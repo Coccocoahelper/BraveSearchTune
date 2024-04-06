@@ -2,7 +2,7 @@
 ! description: The single best Brave Search goggles, giving you the best results!
 ! public: true
 ! author: Coccocoa's Helper
-!license: GPLv3
+! license: GPLv3
 !avatar: #fcea7e
 
 !Removes Spam
@@ -253,13 +253,6 @@ $boost=1,site=news.ycombinator.com
 !Downrank fake Product Reviews
 $downrank=2,site=top10vpn.com
 $downrank=2,site=expertreviews.co.uk
-*NordVPN*$downrank=1,incontent
-*ExpressVPN*$downrank=1,incontent
-*Surfshark*$downrank=1,incontent
-*CyberGhost*$downrank=1,incontent
-*IPVanish*$downrank=1,incontent
-*Hotspot Shield*$downrank=1,incontent
-*Private Internet Access*$downrank=1,incontent
 
 !Downrank fake or anti-FLOSS websites
 !$downrank=1,site=github.com
