@@ -212,10 +212,6 @@ $boost=4,site=wikipedia.org
 $downrank=3,site=gab.com
 $downrank=1,site=twitter.com
 
-!Good news
-$boost=1,site=bloomberg.com
-
-
 !FLOSS and Privacy
 !Boost FLOSS websites
 $boost=2,site=codeberg.org
@@ -243,8 +239,27 @@ $boost=1,site=zorin.com
 
 
 !News
+
+!General News
+$boost=1,site=bloomberg.com
+
+!Programming News
 $boost=1,site=news.ycombinator.com
 $boost=1,site=lobster.rs
+
+!Product Reviews
+$boost=1,site=news.ycombinator.com
+
+!Downrank fake Product Reviews
+$downrank=2,site=top10vpn.com
+$downrank=2,site=expertreviews.co.uk
+*NordVPN*$incontent,$downrank=1
+*ExpressVPN*$incontent,$downrank=1
+*Surfshark*$incontent,$downrank=1
+*CyberGhost*$incontent,$downrank=1
+*IPVanish*$incontent,$downrank=1
+*Hotspot Shield*$incontent,$downrank=1
+*Private Internet Access*$incontent,$downrank=1
 
 !Downrank fake or anti-FLOSS websites
 !$downrank=1,site=github.com
@@ -256,3 +271,9 @@ $downrank=1,site=facebook.com
 $downrank=1,site=instagram.com
 $downrank=1,site=threads.com
 $downrank=2,site=tiktok.com
+
+!Downrank anti-privacy VPNs
+$downrank=1,site=nordvpn.com
+$downrank=1,site=surfshark.com
+$downrank=1,site=hotspotshield.com
+$downrank=1,site=privateinternetaccess.com
